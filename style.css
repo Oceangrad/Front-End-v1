@@ -1,0 +1,285 @@
+header{
+    justify-content:space-between;
+    margin: 0 200px;
+    align-items: center;
+}
+h2{font-size:x-large;}
+#balance-block{font-size: medium;}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form, .btn-sort-price, form select{
+    font-weight: bold;
+    font-size: large;
+}
+#search-bar{
+    font-size: medium;
+}
+form select{
+    font-size: 80%;
+    border: 0;
+}
+#search-bar{
+    height: 25px;
+    border: 0;
+}
+.btn-sort-price{
+    background-color:unset;
+    border: 0;
+    border-radius: 3px;
+}
+.btn-sort-price:hover{
+    background-color:rgb(212, 212, 212);
+}
+aside{
+    float: right;
+    text-align: center;
+    width:30%;
+}
+body .flex{
+    margin: 0 100px;
+    justify-content:space-around;
+}
+header, .flex{
+    display: flex;
+}
+figure{
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+}
+figure img{
+    width: 25%;
+    float: left;
+    margin: 3% auto;
+}
+figure h3{
+    float: right;
+    width: 60%;
+    font-size: medium;
+}
+figcaption{
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 35%;
+    font-size:x-large;
+}
+.btn-buy{
+    width: 25%;
+    height: 30%;
+    border-radius: 10%;
+    float: right;
+}
+.btn-buy{margin-top: 10%;}
+main .flex{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+form{
+    margin-left: 10%;
+}
+.item-to-buy{
+    width: 90%;
+    margin: 10px auto;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    border-radius: 5%;
+    background-color: aliceblue;
+    height: 175px;
+    padding: 5px;
+}
+.item-to-buy img{
+    width: 20%;
+    height: 65%;
+    float: left;
+    margin: 7% 5%;
+}
+.basket-block{
+    width: 65%;
+    float: right;
+    word-wrap: break-word;
+    text-align: left;
+    margin-right: 5%;
+}
+.btn-delete{
+    margin-right: 5%;
+    width: 40%;
+    height: 30px;
+    border-radius: 10%;
+    float: right;
+    margin-top: 10%;
+}
+.Int{
+    font-size: small;
+}
+.Price{
+    font-weight: bold;
+}
+aside p{
+    display: none;
+}
+.btn-buy-items{
+    display: none;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    border: 0;
+    border-radius: 7%;
+}
+.btn-search{
+    width: 10%;
+    height: 30px;
+    border: 0;
+    border-radius: 10%;
+    border-bottom: 2px black solid;
+}
+.btn-search:hover{
+    background-color: rgb(189, 189, 189);
+}
+#search-bar{
+    width: 70%;
+}
+@media(max-width: 2560px) {
+    figure img{
+        width: 25%;
+        float: left;
+        margin: 3% auto;
+    }
+    form, .btn-sort-price{
+        font-weight: bold;
+        font-size: x-large;
+    }
+    form select{
+        font-weight: bold;
+        font-size: large;
+    }
+    h2{font-size:xx-large;}
+    #search-bar{
+        height: 50px;
+        font-size: x-large;
+        width: 80%;
+    }
+    .btn-search{
+        height: 60px;
+        font-size: x-large;
+    }
+    figure{
+        width: 370px;
+        height: 165px;
+    }
+    figcaption{
+        font-size: xx-large;
+    }
+    .btn-buy{
+        width: 25%;
+        font-size: medium;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    .item-to-buy{
+        height: 145px;
+    }
+    figure h3{
+        font-size: x-large;
+    }
+    #balance-block{font-size: x-large;}
+}
+@media(max-width: 1440px) {
+    figure img{
+        width: 25%;
+        float: left;
+        margin: 3% auto;
+    }
+    form, .btn-sort-price, form select{
+        font-weight: bold;
+        font-size: large;
+    }
+    h2{font-size:x-large;}
+    #search-bar{
+        width: 70%;
+        height: 25px;
+        font-size: 100%;
+    }
+    #balance-block{font-size: medium;}
+    figure h3{
+        font-size: medium;
+    }
+    .btn-search{
+        width: 11%;
+        height: 40px;
+        font-size: medium;
+    }
+    figure{
+        width: 30%;
+        height: 115px;
+    }
+    figcaption{
+        font-size: 100%;
+    }
+    .btn-buy{
+        width: 50%;
+        font-size: small;
+    }
+    h1{
+        font-size: large;
+    }
+    .item-to-buy{
+        height: 145px;
+    }
+}
+@media(max-width: 1024px) {
+    body .flex{
+        margin: 0 100px;
+        justify-content:space-between;
+    }
+    figure img{
+        width: 25%;
+        float: left;
+        margin: 3% auto;
+    }
+    form, .btn-sort-price, form select{
+        font-weight: bold;
+        font-size: large;
+    }
+    h2{font-size:x-large;}
+    #search-bar{
+        width: 70%;
+        height: 20px;
+        font-size: 90%;
+    }
+    main{
+        width: 100%;
+        margin-left: 0;
+    }
+    #balance-block{font-size: medium;}
+    figure h3{
+        font-size: medium;
+    }
+    .btn-search{
+        width: 13%;
+        height: 30px;
+        font-size: small;
+    }
+    figure{
+        width: 60%;
+        height: 115px;
+    }
+    figcaption{
+        font-size: 100%;
+    }
+    .btn-buy{
+        width: 40%;
+        font-size: small;
+    }
+    h1{
+        font-size: large;
+    }
+    .item-to-buy{
+        height: 145px;
+    }
+}
